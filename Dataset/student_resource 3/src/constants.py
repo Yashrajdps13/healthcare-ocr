@@ -34,3 +34,37 @@ entity_unit_map = {
 }
 
 allowed_units = {unit for entity in entity_unit_map for unit in entity_unit_map[entity]}
+
+entity_unit_abbreviation_map = {
+    'centimetre': ['cm', 'centimeters', 'centimeter', 'cms'],
+    'foot': ['ft', 'feet', 'foot'],
+    'inch': ['in', 'inches', 'inch'],
+    'metre': ['m', 'meters', 'meter', 'metres'],
+    'millimetre': ['mm', 'millimeters', 'millimeter', 'millimetres'],
+    'yard': ['yd', 'yards', 'yard'],
+    'gram': ['g', 'grams', 'gram'],
+    'kilogram': ['kg', 'kilograms', 'kilogram'],
+    'microgram': ['µg', 'micrograms', 'microgram'],
+    'milligram': ['mg', 'milligrams', 'milligram'],
+    'ounce': ['oz', 'ounces', 'ounce'],
+    'pound': ['lb', 'pounds', 'pound', 'lbs'],
+    'ton': ['t', 'tons', 'ton'],
+    'kilovolt': ['kV', 'kilovolts', 'kilovolt'],
+    'millivolt': ['mV', 'millivolts', 'millivolt'],
+    'volt': ['V', 'volts', 'volt'],
+    'kilowatt': ['kW', 'kilowatts', 'kilowatt'],
+    'watt': ['W', 'watts', 'watt'],
+    'centilitre': ['cL', 'centiliters', 'centiliter', 'centilitres'],
+    'cubic foot': ['ft³', 'cubic feet', 'cubic foot'],
+    'cubic inch': ['in³', 'cubic inches', 'cubic inch'],
+    'cup': ['cup', 'cups'],
+    'decilitre': ['dL', 'deciliters', 'deciliter', 'decilitres'],
+    'fluid ounce': ['fl oz', 'fluid ounces', 'fluid ounce'],
+    'gallon': ['gal', 'gallons', 'gallon'],
+    'imperial gallon': ['imp gal', 'imperial gallons', 'imperial gallon'],
+    'litre': ['L', 'litres', 'litre', 'liters', 'liter'],
+    'microlitre': ['µL', 'microlitres', 'microlitre', 'microliters', 'microliter'],
+    'millilitre': ['mL', 'millilitres', 'millilitre', 'milliliters', 'milliliter'],
+    'pint': ['pt', 'pints', 'pint'],
+    'quart': ['qt', 'quarts', 'quart']
+}
