@@ -37,8 +37,8 @@ allowed_units = {unit for entity in entity_unit_map for unit in entity_unit_map[
 
 entity_unit_abbreviation_map = {
     'centimetre': ['cm', 'centimeters', 'centimeter', 'cms'],
-    'foot': ['ft', 'feet', 'foot'],
-    'inch': ['in', 'inches', 'inch'],
+    'foot': ['ft', 'feet', 'foot',"'"],
+    'inch': ['in', 'inches', 'inch',"''"],
     'metre': ['m', 'meters', 'meter', 'metres'],
     'millimetre': ['mm', 'millimeters', 'millimeter', 'millimetres'],
     'yard': ['yd', 'yards', 'yard'],
